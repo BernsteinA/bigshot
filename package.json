@@ -1,0 +1,26 @@
+{
+  "name": "bigshot",
+  "version": "0.0.0",
+  "description": "really big screenshots",
+  "main": "index.js",
+  "bin": "index.js",
+  "pkg": {"assets": "*.js"},
+  "dependencies": {
+    "phantomjs-prebuilt": "^2.1.14",
+    "phantomjs-render-large-page": "https://github.com/BernsteinA/phantomjs-render-large-page.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernsteinA/bigshot.git"
+  },
+  "author": "Aaron Bernstein",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/BernsteinA/bigshot/issues"
+  },
+  "homepage": "https://github.com/BernsteinA/bigshot#readme"
+}
